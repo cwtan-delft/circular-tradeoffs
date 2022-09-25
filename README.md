@@ -6,6 +6,10 @@ by Tan Chia Wu in 2022.
 
 ## Filestructure
 
+*.\outputs*
+
+COntains export of the pycirk scenarios
+
 *.\ref*
 
 Contains refernce tables, datasets, and concordance tables for EXIOBASE and pycirk.
