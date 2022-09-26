@@ -100,7 +100,7 @@ for k,v in priority_chain_dict.items():
     folder = v['folder']
     update_analyse(folder+'\\scenarios.xlsx', analysis_df)
     results = run_pycirk(folder,save = False)
-    updated_results = update_headers(results,['column'])
+    updated_results = update_headers(results,v['column'])
     updated_results = update_dom_extr(updated_results)
     priority_chain_dict[k]['results'] = updated_results
     

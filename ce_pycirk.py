@@ -303,8 +303,7 @@ def update_headers(result_df, header_list, baseline=True):
     if baseline:
         headers.insert(0, 'baseline')
     #update headers
-    update = result_df.set_axis(headers,axis='columns',inplace=True)        
-     
+    update = result_df.set_axis(headers,axis='columns')
     return update
 #%% change domestic extraction to material extraction in MultiIndex
 def update_dom_extr(result_df):
