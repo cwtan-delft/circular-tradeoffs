@@ -8,7 +8,7 @@ by Tan Chia Wu in 2022.
 
 *.\outputs*
 
-COntains export of the pycirk scenarios
+Contains export of the pycirk scenarios
 
 *.\ref*
 
